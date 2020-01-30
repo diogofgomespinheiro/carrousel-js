@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carrousel-container {
+  width: 40%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  margin-top: 20px;
+  border-radius: 50px;
+}
+
+.carrousel-slider {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}
+
+.carrousel-slider img {
+  width: 100%;
+}
+
+#prev,
+#next {
+  position: absolute;
+  top: 50%;
+  font-size: 48px;
+  font-weight: bold;
+  color: gray;
+  cursor: pointer;
+}
+
+#prev {
+  left: 10px;
+}
+
+#next {
+  right: 10px;
+}
+
